@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for DYLAN DIETZ	</title>
-	<atom:link href="https://deetss.github.io/deetss-portfolio/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://deetss.github.io/deetss-portfolio/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
 	<description></description>
 	<lastBuildDate>Sat, 12 Nov 2022 17:19:21 +0000</lastBuildDate>
 	<sy:updatePeriod>
