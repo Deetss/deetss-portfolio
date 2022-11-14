@@ -1715,6 +1715,7 @@ body h6 {
   color: #ffffff;
   font-family: Roboto;
   text-decoration: none;
+  font-size: 32px;
 }
 #colibri .h-navigation_sticky .style-321-image,#colibri .h-navigation_sticky.style-321-image {
   max-height: 70px;
@@ -2032,11 +2033,13 @@ var colibriData = {"6-h2":{"data":{"sticky":{"className":"h-navigation_sticky an
 		<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
 				<style>.no-js img.lazyload { display: none; }
 			figure.wp-block-image img.lazyloading { min-width: 150px; }
-							.lazyload, .lazyloading { opacity: 0; }
-				.lazyloaded {
+							.lazyload { opacity: 0; }
+				.lazyloading {
+					border: 0 !important;
 					opacity: 1;
-					transition: opacity 400ms;
-					transition-delay: 0ms;
+					background: rgba(255, 255, 255, 0) url('./wp-content/plugins/wp-smushit/app/assets/images/smush-lazyloader-4.gif') no-repeat center !important;
+					background-size: 16px auto !important;
+					min-width: 16px;
 				}</style>
 		                <style>#wpadminbar ul li#wp-admin-bar-colibri_top_bar_menu {
                         background-color: rgba(3, 169, 244, 0.3);
